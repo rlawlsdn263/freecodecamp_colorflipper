@@ -13,6 +13,31 @@ body {
     justify-content: center;
 }
 
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    background-color: white;
+    width: 100vw;
+    height: 80px;
+}
+
+.navBar div {
+    margin: 0px 50px;
+    font-size: 24px;
+}
+
+.navBar div:hover {
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .backgroundColor {
     color: white;
     background-color: black;
